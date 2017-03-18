@@ -1,0 +1,11 @@
+applications:
+- path: output/webApp.war
+  memory: 64M
+  instances: 1
+  domain: mybluemix.net
+  name: LASInsight
+  host: LASInsight
+  disk_quota: 1024M
+  services:
+  - LASInsight-personality_insights
+  - Insights for Twitter-9n
